@@ -1,0 +1,31 @@
+.overflow{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    border: 5px solid green;
+    overflow: auto;
+ 
+}
+
+
+.tooltip .tooltip-text{
+
+    visibility: hidden;
+
+    width: 150px;
+    background-color: brown;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+  
+   
+}
+
+.tooltip{
+    position: relative;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}

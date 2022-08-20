@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+
+    <style>
+.div1{
+    background-color:var(--primary-color, red);
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.div2{
+    background-color: var(--scondary-color,green);
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+
+
+:root{
+    --primary-color:yellow;
+    --secondary-color:black;
+}
+
+
+@media screen and (max-width:500px){
+
+    :root{
+    --primary-color:rgb(119, 0, 255);
+    --secondary-color:rgb(0, 0, 0);
+}
+    
+}
+
+
+    </style>
+</head>
+<body>
+    
+
+<div class="div1">
+
+</div>
+
+<div class="div2">
+
+</div>
+
+
+</body>
+</html>

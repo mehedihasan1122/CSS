@@ -1,0 +1,43 @@
+/*<!  1
+
+body{
+    background-image: url("bgi.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}*/
+
+/*  2 
+.gradiant1{
+    height: 400px;
+    width: 100%;
+    background-image:linear-gradient(to right,red,green) ;
+}
+
+.gradiant2{
+    height: 400px;
+    width: 100%;
+    background-image:radial-gradient(circle,yellow,red,black,green)
+}
+
+*/
+
+
+#section1{
+    background-color: red;
+    float: left;
+}
+
+
+#section2{
+    background-color: rgb(202, 167, 167);
+    float: right;
+}
+
+
+#section3{
+    background-color: rgb(153, 0, 255);
+}
+#clear-div{
+    clear:both;
+}

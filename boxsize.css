@@ -1,0 +1,30 @@
+.div1{
+    background-color: brown;
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+
+.div2{
+    background-color: rgb(110, 42, 165);
+    height: 300px;
+    width: 50%;
+    float:left
+}
+
+
+
+img{
+    height: 200px;
+    width: 350px;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}

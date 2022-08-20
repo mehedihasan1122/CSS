@@ -1,0 +1,22 @@
+body{
+    background-color: #706B97;
+}
+
+h1{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: pink;
+}
+.container{
+    background-color: blue;
+    width: 300px;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+.para{
+    margin-left: 30px;
+}

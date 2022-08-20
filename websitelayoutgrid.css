@@ -1,0 +1,38 @@
+body{
+
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+
+    display: grid;
+    grid-template-areas:
+    
+    'header header header header header header header'
+    'nav-menu nav-menu nav-menu nav-menu nav-menu nav-menu nav-menu'
+    'content-1 main-content main-content main-content main-content main-content content-2'
+    'footer footer footer footer footer footer footer'
+    
+    ;
+}
+
+.container > div{
+
+    background-color: red;
+    border: 2px solid green;
+    text-align: center;
+    font-size: 1rem;
+    
+  
+}
+
+.class1{grid-area: header;}
+.class2{grid-area: nav-menu;}
+.class3{grid-area: content-1;}
+.class4{grid-area: main-content;}
+.class5{grid-area: content-2;}
+.class6{grid-area: footer;}
+

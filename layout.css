@@ -1,0 +1,40 @@
+
+.navbar-div{
+    border: 5px solid black;
+    padding: 5px;
+    position: fixed;
+    top:20px;
+}
+
+.div1{
+    border: 5px solid black;
+    padding: 5px;
+    position: static;
+    top:20px;
+}
+
+
+.div2{
+    border: 5px solid rgb(150, 21, 21);
+    padding: 5px;
+    position: relative;
+   
+}
+
+
+
+
+.div3{
+    border: 5px solid rgb(92, 21, 150);
+    padding: 5px;
+    position: relative;
+    height: 250px;
+  
+}
+
+.div4{
+    border: 5px solid orange;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}

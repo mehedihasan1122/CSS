@@ -1,0 +1,46 @@
+h1{
+    color:blue;
+    font-size:20px;
+}
+
+p{
+    color:brown;
+    background-color: rgb(218, 218, 197);
+    font-size: 15px;
+    font-style: italic; 
+}
+
+.heading-style{
+    border: 2px;;
+    background-color: aqua;
+    font-size: 33px;
+    font-style:normal;
+}
+
+
+#para-style{
+    color:red;
+}
+
+#section1{
+
+color:blue;
+background-color:yellow;
+
+}
+
+#section1 h1{
+    color:brown
+}
+
+
+.style1{
+    color:red;
+    background-color: black;
+    font-size:30;
+
+}
+
+.style2{
+    font-size:50px;
+}

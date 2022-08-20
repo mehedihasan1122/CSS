@@ -1,0 +1,56 @@
+ h1{
+    background-color: green;
+    text-align: center;
+ }
+
+ #para1{
+    background-color: blueviolet;
+    color:blue;
+    font-size: 25px;
+ }
+
+ .class1{
+    font-style:italic;
+    background-color: burlywood;
+
+ }
+
+ .new{
+    background-color: blue;
+    font-size: 50px;
+ }
+
+  .class2{
+    font-size: 40px;
+    text-align: center;
+  }
+
+ *{
+    background-color:cadetblue;
+ }
+
+
+
+h1,p{
+
+    color:white;
+ }
+ 
+
+
+div>p{
+    color:red;
+}
+
+div p{
+    color:yellow;
+}
+ 
+
+div+p{
+    color:aqua;
+}
+
+div ~ p{
+color: red;
+}

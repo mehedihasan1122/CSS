@@ -1,0 +1,66 @@
+
+
+a:hover{
+    color:red;
+}
+
+h1{
+background-color: blue;
+}
+
+.input{
+    padding: 5px;
+    font-size: 1rem;
+    width: 150px;
+
+}
+input:hover{
+    background-color: green;
+}
+
+input:focus{
+    background-color: brown;
+}
+
+table, tr, td,th{
+    border: 1px solid brown;
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(odd){
+background-color: grey;
+}
+
+
+.p:hover{
+    color:red;
+}
+
+p::first-letter{
+    font-size: 4rem;
+    color:red;
+    font-style: italic;
+
+}
+.demo:hover{
+background-color:yellow;
+color:blue;
+}
+
+::selection{
+    color:red;
+    background-color: aqua;
+}
+
+.r1::before, .r1::after{
+content: "";
+width: 50%;
+height:20px;
+background: red;
+display:inline-block;
+}
+
+.r2::placeholder{
+    color:red;
+}
